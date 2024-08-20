@@ -189,7 +189,7 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 }
 
-.main-title-team2 {
+.main-title-team-ul {
   display: flex;
   gap: 24px;
 }
