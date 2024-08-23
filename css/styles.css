@@ -12,6 +12,8 @@ img {
 
 ul {
   list-style-type: none;
+  margin: 0;
+  padding-left: 0;
 }
 
 .title-header {
@@ -209,6 +211,7 @@ text-transform: capitalize;
   background-color: #FFFFFF;
   width: calc((100% - 72px) / 4);
   border-radius: 0px 0px 4px 4px;
+  width: auto;
 }
 
 .name-person-container {
@@ -258,6 +261,7 @@ text-transform: capitalize;
 
   .photo-images {
       width: calc((100% - 48px) / 3);
+      width: auto;
   }
 
   .photo-images > img {
