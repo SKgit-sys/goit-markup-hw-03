@@ -12,7 +12,6 @@ img {
 
 ul {
   list-style-type: none;
-
 }
 
 .title-header {
@@ -21,6 +20,8 @@ ul {
 
 .container-header {
   display: flex;
+  height: 72px;
+  justify-content: space-between;
 }
 
 .container {
@@ -81,8 +82,9 @@ text-decoration: none;
 }
 
 .address-contact-list {
-  padding-left: 200px;
+  padding-top: 24px;
   display: flex;
+  margin: auto;
   gap: 40px;
 
 }
@@ -92,6 +94,7 @@ text-decoration: none;
 }
 
 .address-contact-link {
+
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
@@ -107,12 +110,14 @@ text-decoration: none;
 }
 
 .section-title {
+  height: 600px;
   background-color: #2e2f42;
   padding: 188px 0;
 }
 
 .section-title-name {
-  margin-left: 275px;
+  padding: auto 0;
+margin: 40px auto;
   max-width: 496px;
   font-weight: 700;
 font-size: 56px;
@@ -123,7 +128,7 @@ color: #ffffff;
 }
 
 .button-type {
-  margin-left: 425px;
+margin: auto;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -151,7 +156,7 @@ background-color: #404bbf;
 }
 
 .main-title-list {
-  margin: 0;
+  margin: auto;
   padding-left: 0;
   display: flex;
   width: 1158px;
@@ -208,7 +213,7 @@ text-transform: capitalize;
 }
 
 .main-title-team-ul {
-  margin: 0;
+  margin: auto;
   padding-left: 0;
   display: flex;
   gap: 24px;
