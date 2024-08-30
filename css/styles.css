@@ -12,8 +12,7 @@ img {
 
 ul {
   list-style-type: none;
-  margin: 0;
-  padding-left: 0;
+
 }
 
 .title-header {
@@ -82,8 +81,10 @@ text-decoration: none;
 }
 
 .address-contact-list {
+  padding-left: 200px;
   display: flex;
   gap: 40px;
+
 }
 
 .address-contact {
@@ -111,6 +112,7 @@ text-decoration: none;
 }
 
 .section-title-name {
+  margin-left: 275px;
   max-width: 496px;
   font-weight: 700;
 font-size: 56px;
@@ -121,6 +123,7 @@ color: #ffffff;
 }
 
 .button-type {
+  margin-left: 425px;
   display: block;
   min-width: 169px;
   height: 56px;
@@ -144,9 +147,12 @@ background-color: #404bbf;
 
 .section-title-container {
   padding: 120px 0;
+  margin: 0;
 }
 
 .main-title-list {
+  margin: 0;
+  padding-left: 0;
   display: flex;
   width: 1158px;
   gap: 24px;
@@ -202,8 +208,9 @@ text-transform: capitalize;
 }
 
 .main-title-team-ul {
+  margin: 0;
+  padding-left: 0;
   display: flex;
-  width: 1158px;
   gap: 24px;
 }
 
@@ -256,6 +263,8 @@ text-transform: capitalize;
       flex-wrap: wrap;
       column-gap: 24px;
       row-gap: 48px;
+      margin: 0;
+      padding-left: 0;
   }
 
   .photo-images {
@@ -281,6 +290,7 @@ text-transform: capitalize;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  text-align: center;
   }
 
   .main-portfolio-text {
