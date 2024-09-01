@@ -30,6 +30,7 @@ ul {
   display: flex;
   height: 72px;
   justify-content: space-between;
+  align-items: center;
 }
 
 .container {
@@ -44,10 +45,16 @@ ul {
 
 .title-navigation {
   display: flex;
-  align-items: center;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
 .title-name {
+  display: flex;
+align-items: center;
+justify-content: flex-start;
+flex-direction: row;
+gap: 0px;
   margin-right: 76px;
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -69,6 +76,7 @@ ul {
 .title-name-list {
   display: flex;
   gap: 40px;
+  padding-left: 0;
 }
 
 .title-name-link {
@@ -90,7 +98,7 @@ text-decoration: none;
 }
 
 .address-contact-list {
-  padding-top: 24px;
+  padding-left: 0;
   display: flex;
   margin: auto;
   gap: 40px;
@@ -118,9 +126,12 @@ text-decoration: none;
 }
 
 .section-title {
-  height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #2e2f42;
-  padding: 188px 0;
+  padding-top: 188px;
+  padding-bottom: 188px;
 }
 
 .section-title-name {
@@ -159,15 +170,16 @@ background-color: #404bbf;
 }
 
 .section-title-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
   padding: 120px 0;
   margin: 0;
 }
 
 .main-title-list {
-  margin: auto;
   padding-left: 0;
   display: flex;
-  width: 1158px;
   gap: 24px;
 }
 
@@ -234,6 +246,10 @@ text-transform: capitalize;
 }
 
 .name-person-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
   padding: 32px 0;
 }
 
@@ -282,7 +298,7 @@ text-transform: capitalize;
 
   .photo-images {
       width: calc((100% - 48px) / 3);
-      width: auto;
+
   }
 
   .photo-images > img {
@@ -290,6 +306,10 @@ text-transform: capitalize;
   }
 
   .image-container {
+    display: flex;
+    align-items: center;
+justify-content: center;
+flex-direction: column;
       padding: 32px 16px;
       border: 1px solid #e7e9fc;
       border-top: none;
@@ -303,7 +323,6 @@ text-transform: capitalize;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   }
 
   .main-portfolio-text {
