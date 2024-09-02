@@ -41,6 +41,7 @@ ul {
 
 .container-header {
   display: flex;
+  
 }
 
 .title-navigation {
@@ -75,6 +76,9 @@ gap: 0px;
 
 .title-name-list {
   display: flex;
+  align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
   gap: 40px;
   padding-left: 0;
 }
@@ -135,7 +139,6 @@ text-decoration: none;
 }
 
 .section-title-name {
-  padding: auto 0;
 margin: 40px auto;
   max-width: 496px;
   font-weight: 700;
@@ -307,8 +310,8 @@ text-transform: capitalize;
 
   .image-container {
     display: flex;
-    align-items: center;
-justify-content: center;
+    align-items: flex-start;
+    justify-content: center;
 flex-direction: column;
       padding: 32px 16px;
       border: 1px solid #e7e9fc;
@@ -329,7 +332,6 @@ flex-direction: column;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-text-align: center;
   }
 
   .footer-page {
