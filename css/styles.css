@@ -139,7 +139,7 @@ text-decoration: none;
 }
 
 .section-title-name {
-margin: 40px auto;
+margin: 0 auto 40px auto;
   max-width: 496px;
   font-weight: 700;
 font-size: 56px;
